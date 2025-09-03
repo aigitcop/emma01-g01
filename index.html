@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chem with Dr Em: GCSE and A-Level Online Chemistry Tuition with Dr Emma Scales-Jones</title>
+    <meta name="description" content="Boost your confidence and grades with friendly, supportive online tutoring with Dr Emma Scales-Jones. Enhance your learning and exam techniques.">
+    <meta name="robots" content="follow, index, max-snippet:-1">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600,400" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fusion-header-wrapper">
+        <div class="fusion-header">
+            <div class="header-container">
+                <nav class="nav-center">
+                    <a href="#" class="nav-link nav-home">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#">
+                        <img src="images/logo.png" alt="Chem with Dr Em Logo" class="fusion-standard-logo">
+                    </a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#" class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</a>
+                </nav>
+
+                <div class="mobile-menu">
+                    <a href="#" class="nav-link mobile-nav-home">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Unlock Your Potential with Expert Tuition</h1>
+            <h2>Personalised Tutoring, Real Results</h2>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-banner.png" alt="Chemistry Tuition" />
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi, I'm Emma.</p>
+                        <p>I am an expert in Chemistry, and I am also an expert explainer. My love of Chemistry was ignited during my very first lesson in Year 7 when I used a Bunsen burner for the first time, and it has continued ever since. At Chem with Dr Em, I combine this love of Chemistry with my enthusiasm for teaching to deliver bespoke, one-to-one lessons in GCSE and A Level Chemistry.</p>
+                        <p>Whether you need support to improve your grades, practice your exam techniques, or push yourself to achieve your highest potential, I can help enhance your learning in a friendly and supportive manner, boosting your confidence along the way.</p>
+                        <p>After working as an editor for a prestigious Chemistry journal and then as a Medical Writer, I found my calling and re-trained to become a teacher in 2012 and have since held the positions of Head of A Level Chemistry, Head of Chemistry, Sixth Form Academic Progress Tutor, and Assistant Director of Sixth Form at an Outstanding School. I became a UK and international online Chemistry tutor in 2023, and I am also an experienced GCSE and A Level Chemistry examiner.</p>
+                        <p>Check out my accounts on social media by following the links below, and see my YouTube channel for short tutorials that break down tricky topics in easy-to-digest chunks.</p>
+                        <p>Below, you'll find more information about the types of tuition I offer and my qualifications. For any additional details or to check availability, please get in touch using the contact form.</p>
+                    </div>
+                    <div class="signature">
+                        <img src="images/signature.png" alt="Dr Emma Scales-Jones Signature">
+                        <p>Dr Emma Scales-Jones</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section">
+            <div class="services-grid">
+                <!-- Tuition Service -->
+                <div class="service-card">
+                    <button class="service-btn">Tuition</button>
+                    <div class="service-image">
+                        <img src="images/teaching.png" alt="Teaching">
+                    </div>
+                    <div class="service-content">
+                        <h3>Unlock Your Potential in Chemistry with Expert Tuition</h3>
+                        <p>Whether you're just starting out in GCSE Chemistry or preparing for the critical final exams at A Level, I am here to help you excel. With years of experience and a clear passion for teaching, I offer tailored support across all major Chemistry specifications, ensuring that every student can achieve their academic goals.</p>
+                        <button class="service-link" onclick="openModal('tuition-modal')">Click here to view the list</button>
+                    </div>
+                </div>
+
+                <!-- Education Service -->
+                <div class="service-card">
+                    <button class="service-btn">My Education</button>
+                    <div class="service-image">
+                        <img src="images/education.png" alt="Education">
+                    </div>
+                    <div class="service-content">
+                        <h3>Why Choose Me as Your Chemistry Tutor?</h3>
+                        <p>My educational background provides a solid foundation in both Chemistry and effective teaching practices, ensuring that you receive the highest quality of instruction.</p>
+                        <button class="service-link" onclick="openModal('education-modal')">Click here to view the list</button>
+                    </div>
+                </div>
+
+                <!-- Prizes Service -->
+                <div class="service-card">
+                    <button class="service-btn">Prizes</button>
+                    <div class="service-image">
+                        <img src="images/prizes.png" alt="Prizes">
+                    </div>
+                    <div class="service-content">
+                        <h3>A Track Record of Excellence in Chemistry</h3>
+                        <p>Choosing a tutor with a proven history of academic excellence can make all the difference in your educational journey. My dedication to the study of Chemistry has been recognised through numerous prestigious awards and prizes throughout my academic career, showcasing my commitment to both learning and teaching.</p>
+                        <button class="service-link" onclick="openModal('prizes-modal')">Click here to view the list</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial active">
+                        <p><em>"Emma's tuition has been a game changer for us. Lessons are well structured and clear. Emma's positivity and practical advice has really boosted my son's confidence in Chemistry. I wholeheartedly recommend her as a tutor."</em></p>
+                        <p>Chemistry A Level (AQA)</p>
+                    </div>
+                    <div class="testimonial">
+                        <p><em>"Emma has been an amazing tutor so far. It's always difficult trying to find a tutor who can not only teach well, but also support you and encourage you and Emma does all of these things! Her teaching style makes it easier to understand any gaps in my knowledge and equip me with the confidence to do questions myself and succeed!"</em></p>
+                        <p>Chemistry A Level (AQA)</p>
+                    </div>
+                    <div class="testimonial">
+                        <p><em>"Emma is very professional and would highly recommend her as a tutor. Emma is thorough and easy to communicate with via email or phone. Emma built my daughter's confidence in only a few weeks. Wonderful teacher!"</em></p>
+                        <p>Chemistry A Level (CIE)</p>
+                    </div>
+                    <div class="testimonial">
+                        <p><em>"I really enjoy working with Emma as she has helped to clear my conceptual understanding and has provided a great set of resources for practice. I feel a lot more confident in my A Level Chemistry thanks to her."</em></p>
+                        <p>Chemistry A Level (CIE)</p>
+                    </div>
+                    <div class="testimonial">
+                        <p><em>"Emma has been tutoring my son in Chemistry for a few months now. He immediately engaged with her teaching style and looks forward to his lessons. His grades have made a huge improvement in a very short time, and he is finally enjoying Chemistry again. Thank you, Emma!"</em></p>
+                        <p>Chemistry A Level (OCR)</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://x.com/chemwithdrem" target="_blank">Twitter</a>
+                    <a href="https://www.facebook.com/profile.php?id=61566474929701" target="_blank">Facebook</a>
+                    <a href="https://www.tiktok.com/@chemwithdrem" target="_blank">TikTok</a>
+                    <a href="https://www.youtube.com/@chemwithdrem" target="_blank">YouTube</a>
+                    <a href="https://www.instagram.com/chemwithdrem/" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/company/chem-with-dr-em/about/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="parent_name">Parent/Carer's name</label>
+                                <input type="text" id="parent_name" name="parent_name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="student_name">Student's name</label>
+                                <input type="text" id="student_name" name="student_name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact_number">Parent/Carer's contact number</label>
+                                <input type="tel" id="contact_number" name="contact_number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Parent/Carer's email address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="qualification">Qualification you would like tutoring for (GCSE/A Level)</label>
+                                <input type="text" id="qualification" name="qualification" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exam_board">Exam board (AQA/OCR/Edexcel/CIE)</label>
+                                <input type="text" id="exam_board" name="exam_board" required>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Any further information</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="images/logo-footer.png" alt="Chem with Dr Em Logo" class="footer-logo">
+            </div>
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <p><a href="mailto:emma@chemwithdrem.co.uk">emma@chemwithdrem.co.uk</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Social Media</h4>
+                <div class="social-links">
+                    <a href="https://x.com/chemwithdrem" target="_blank">Twitter</a>
+                    <a href="https://www.facebook.com/profile.php?id=61566474929701" target="_blank">Facebook</a>
+                    <a href="https://www.tiktok.com/@chemwithdrem" target="_blank">TikTok</a>
+                    <a href="https://www.youtube.com/@chemwithdrem" target="_blank">YouTube</a>
+                    <a href="https://www.instagram.com/chemwithdrem/" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/company/chem-with-dr-em/about/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+<div class="footer-bottom">
+            <p>Copyright 2024 | All Rights Reserved | Chemwithdrem.co.uk | Designed by JJ Media Solutions</p>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="tuition-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('tuition-modal')">&times;</span>
+            <h3>Types of tuition offered</h3>
+            <ul>
+                <li>GCSE/IGCSE Chemistry (all specifications)</li>
+                <li>A Level Chemistry (all specifications)</li>
+                <li>UCAS applications (specialising in applications to Medical and Dental School and STEM subjects)</li>
+                <li>UCAT mentoring</li>
+                <li>EPQ mentoring</li>
+                <li>A Level Chemistry pedagogy/teacher training</li>
+                <li>Dissertation and Thesis editing (I am a trained Editor and Writer)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="education-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('education-modal')">&times;</span>
+            <h3>My Education</h3>
+            <ul>
+                <li>A Levels: Biology (A), Chemistry (A), Physics (A), General Studies (A)</li>
+                <li>MChem with External Placement (First Class Honours), University of St Andrews</li>
+                <li>PhD in Chemistry, University of Manchester</li>
+                <li>PGCE (Secondary Science), University of Manchester</li>
+                <li>MA in Education, Manchester Metropolitan University</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="prizes-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('prizes-modal')">&times;</span>
+            <h3>Prizes I have achieved</h3>
+            <ul>
+                <li>The Chemistry Prize (Highest scoring A Level Chemistry student in the school)</li>
+                <li>The Biology Prize (Highest scoring A Level Biology student in the school)</li>
+                <li>Direct entry into 2nd Year of university due to excellent A Level Chemistry results</li>
+                <li>Chemistry and Medicinal Chemistry Class Medal, University of St Andrews</li>
+                <li>Chemistry and Materials Chemistry Class Medal, University of St Andrews</li>
+                <li>Finlayson Book Prize (Best student in 2nd Year Chemistry), University of St Andrews</li>
+                <li>Elizabeth Soutar Prize (Best student in 3rd Year Chemistry), University of St Andrews</li>
+                <li>Irvine Jubilee Prize and Medal (Best overall Chemistry student), University of St Andrews</li>
+                <li>Forrester Prize (Best student in honours Chemistry), University of St Andrews</li>
+                <li>Gray Prize (Best essay in Chemistry), University of St Andrews</li>
+                <li>BP Prize (Best final year research project in Inorganic Chemistry), University of St Andrews</li>
+                <li>Salters' Graduate Prize (Awarded to top 5 Chemistry undergraduates in the UK)</li>
+                <li>Marie Curie Fellowship (International Fellowship to fund further research at the University of Florence, Italy, during my PhD)</li>
+                <li>The Owens Prize (Best PGCE student in Secondary Science), University of Manchester</li>
+                <li>The Withers Prize (Best overall PGCE student from all subjects), University of Manchester</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Modal functionality
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'block';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+            }
+        }
+
+        // Testimonials slider (simple rotation)
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.testimonial');
+
+        function showNextTestimonial() {
+            testimonials[currentTestimonial].classList.remove('active');
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            testimonials[currentTestimonial].classList.add('active');
+        }
+
+        setInterval(showNextTestimonial, 5000);
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.querySelector('.mobile-menu');
+            mobileMenu.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
